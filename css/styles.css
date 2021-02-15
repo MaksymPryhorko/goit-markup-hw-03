@@ -98,6 +98,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 .studio-header {
@@ -339,6 +340,18 @@ a {
   background-color: var(--white-text10);
 }
 
+.sites-name,
+.sites-description {
+  margin: 0px;
+}
+
+.name-description {
+  padding: 20px 24px;
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+  border-left: 1px solid rgba(238, 238, 238, 1);
+  border-right: 1px solid rgba(238, 238, 238, 1);
+}
+
 .sites-name {
   color: var(--black-text);
   font-style: normal;
@@ -355,6 +368,7 @@ a {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
+  margin-top: 4px;
 }
 
 footer {
@@ -374,6 +388,7 @@ footer {
   display: inline-block;
   margin-top: 20px;
 }
+
 .footer-contacts {
   display: inline-block;
   margin-top: 9px;
@@ -414,13 +429,6 @@ footer {
   justify-content: center;
 }
 
-.sites-name,
-.sites-description {
-  margin: 0px;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
 .box-sites {
   margin-top: 56px;
 }
@@ -428,15 +436,6 @@ footer {
 .container .sites {
   width: 370px;
   height: 404px;
-}
-
-.sites-name {
-  margin-top: 20px;
-}
-
-.sites-description {
-  margin-top: 4px;
-  margin-bottom: 20px;
 }
 
 .our-works > .sites {
