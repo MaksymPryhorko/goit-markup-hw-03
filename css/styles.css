@@ -33,6 +33,10 @@
   margin-right: auto;
 }
 
+.team > .container {
+  margin-top: 50px;
+}
+
 .cont-size {
   width: 1200px;
   padding: 0 15px;
@@ -219,14 +223,14 @@ a {
   letter-spacing: 0.03em;
 
   margin: 0px;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .studio {
   margin-top: 94px;
 }
 
-.photo-works {
+.studio > .container {
   margin-top: 50px;
 }
 
@@ -246,7 +250,6 @@ a {
   margin: 0;
   padding: 0px;
   display: flex;
-  padding-top: 50px;
 }
 
 .photo-item > img {
@@ -267,18 +270,18 @@ a {
   letter-spacing: 0.03em;
 
   margin: 0px;
-  margin-top: 94px;
 }
 
 .team-list {
   display: flex;
-  margin-top: 50px;
   padding: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 
 .team {
   background-color: var(--background-white);
+  padding: 94px 0px;
+  margin-top: 94px;
 }
 
 .team-names {
@@ -373,25 +376,19 @@ a {
 
 footer {
   background-color: var(--background-grey);
-  margin-top: 94px;
+  padding: 60px 0px;
 }
 
-.footer .cont-size {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.cont-size .address {
+.address {
+  margin-top: 20px;
 }
 
 .footer-adress {
   display: inline-block;
-  margin-top: 20px;
 }
 
 .footer-contacts {
   display: inline-block;
-  margin-top: 9px;
 }
 
 .footer-contacts {
@@ -430,7 +427,7 @@ footer {
 }
 
 .box-sites {
-  margin-top: 56px;
+  margin-top: 50px;
 }
 
 .container .sites {
@@ -448,5 +445,6 @@ footer {
 }
 
 .main-portfolio {
-  margin-top: 155px;
+  margin-top: 139px;
+  margin-bottom: 49px;
 }
