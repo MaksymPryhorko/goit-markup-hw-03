@@ -186,7 +186,7 @@ a {
 }
 
 .advantages {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .advantages-list .item {
@@ -227,7 +227,8 @@ a {
 }
 
 .studio {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .studio > .container {
@@ -281,7 +282,6 @@ a {
 .team {
   background-color: var(--background-white);
   padding: 94px 0px;
-  margin-top: 94px;
 }
 
 .team-names {
@@ -445,6 +445,6 @@ footer {
 }
 
 .main-portfolio {
-  margin-top: 139px;
-  margin-bottom: 49px;
+  padding-top: 139px;
+  padding-bottom: 49px;
 }
